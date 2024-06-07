@@ -8,7 +8,8 @@ O projeto desenvolvido foi um modelo que simula um *Spotify* simplificado, onde 
 
 * Chat GPT-4o para criar a página HTML, o .CSS e o arquivo .js.
 * DALL-E 3 para criar as imagens das capas.
-* Os sites <Suno.ai> e <Udio.com> foram usados para criar as músicas da playlist.
+* Os sites [Suno.ai](https://suno.ai) e [Udio.com](https://udio.com) foram usados.
+ para criar as músicas da playlist.
 
 ## 🧐 Processo de Criação
 
@@ -21,6 +22,8 @@ Por último, foram feitos ajustes manuais para melhorar substancialmente detalhe
 Ao final, foi obtida uma interface de usuário com uma playlist de 7 músicas, de diferentes estilos, geradas por IA.
 
 **Estrutura do projeto:**
+
+```
 Spotify Fake Natty/
 │
 ├── index.html
@@ -38,7 +41,7 @@ Spotify Fake Natty/
 │   ├── cover7.jpg
 │   └── profile.jpg
 └── README.md
-
+```
 
 ## 💭 Reflexão 
 
