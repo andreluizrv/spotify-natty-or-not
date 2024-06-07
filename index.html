@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Fake Natty</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/profile.png" type="image/png">
+
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="https://github.com/andreluizrv/spotify-natty-or-not">
+                <img src="images/profile.png" alt="Acesse a página do projeto" class="profile-image">
+            </a>
+            <h1 class = "title">Spotify Fake Natty</h1>
+        </div>
+        <div class="header-right">
+            <div class="image-suno">
+                <a href="https://suno.com/@nervousconcelos" target="_blank">
+                    <img src="https://suno.com/Suno-Logo-Lockup.svg" alt="Repositório de músicas do Suno.ai">
+                </a>
+            </div>
+            <div class="image-udio">
+                <a href="https://www.udio.com/creators/Andrelrv" target="_blank">
+                    <img src="https://www.udio.com/logo-white-beta.svg" alt="Repositório de músicas do Udio.ai">
+                </a>
+            </div>
+            <a href="https://github.com/andreluizrv">
+                <button id="aboutUs">Sobre o autor</button>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="playlist-header">
+            <span>#</span>
+            <span>Título</span>
+            <span>Artista</span>
+            <span>Gênero</span>
+            <span>Tempo</span>
+        </div>
+        <div class="playlist">
+            <ul id="playlist">
+                <li data-src="https://cdn1.suno.ai/76330f0f-67ce-41d3-b45b-4c52afb67af9.mp3" data-artist="Nervousconcelos" data-genre="Pop Rock" data-cover="images/cover1.jpg">
+                    <img src="images/cover1.jpg" alt="Capa Pão Fofinho" class="cover">
+                    <span class="track-number">1</span>
+                    <span class="track-title">Pão Fofinho</span>
+                    <span class="track-artist">Nervousconcelos</span>
+                    <span class="track-album">Pop Rock</span>
+                    <span class="track-time">2:08</span>
+                    <button class="play-button">►</button>
+                </li>
+                <li data-src="https://cdn1.suno.ai/bfdfd865-fadc-4574-979a-27c587a0c65c.mp3" data-artist="Nervousconcelos" data-genre="Trap" data-cover="images/cover2.jpg">
+                    <img src="images/cover2.jpg" alt="Cover 2" class="cover">
+                    <span class="track-number">2</span>
+                    <span class="track-title">Trampo</span>
+                    <span class="track-artist">Nervousconcelos</span>
+                    <span class="track-album">Trap</span>
+                    <span class="track-time">3:11</span>
+                    <button class="play-button">►</button>
+                </li>
+                <li data-src="https://cdn1.suno.ai/89d35bcd-1bea-4846-b94b-4b2a20047669.mp3" data-artist="Nervousconcelos" data-genre="Metal" data-cover="images/cover3.jpg">
+                    <img src="images/cover3.jpg" alt="Cover 3" class="cover">
+                    <span class="track-number">3</span>
+                    <span class="track-title">Pão Fofinho 2</span>
+                    <span class="track-artist">Nervousconcelos</span>
+                    <span class="track-album">Metal</span>
+                    <span class="track-time">3:24</span>
+                    <button class="play-button">►</button>
+                </li>
+                <li data-src="https://cdn1.suno.ai/99741cbc-a4eb-4ff2-a8d6-61e73b5c9864.mp3" data-artist="Nervousconcelos" data-genre="Disco" data-cover="images/cover4.jpg">
+                    <img src="images/cover4.jpg" alt="Cover 4" class="cover">
+                    <span class="track-number">4</span>
+                    <span class=" track-title">Gole Guaraná</span>
+                    <span class="track-artist">Nervousconcelos</span>
+                    <span class="track-album">Disco</span>
+                    <span class="track-time">1:28</span>
+                    <button class="play-button">►</button>
+                </li>
+                <li data-src="https://cdn1.suno.ai/d409c82e-16f0-4de6-b862-88588f1d3a81.mp3" data-artist="Nervousconcelos" data-genre="Industrial/EDM" data-cover="images/cover5.jpg">
+                    <img src="images/cover5.jpg" alt="Cover 4" class="cover">
+                    <span class="track-number">5</span>
+                    <span class="track-title">Pão Fofinho 3</span>
+                    <span class="track-artist">Nervousconcelos</span>
+                    <span class="track-album">Industrial/EDM</span>
+                    <span class="track-time">4:00</span>
+                    <button class="play-button">►</button>
+                </li>
+                <li data-src="https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/5a5363410d20452998885160f594b08a/2/Pao%2520Fofinho%2520ext%2520v1.2.mp3" data-artist="Nervousconcelos" data-genre="Pop" data-cover="images/cover6.jpg">
+                    <img src="images/cover6.jpg" alt="Cover 6" class="cover">
+                    <span class="track-number">6</span>
+                    <span class="track-title">Pão Fofinho 4 (último, juro!)</span>
+                    <span class="track-artist">Nervousconcelos</span>
+                    <span class="track-album">Pop</span>
+                    <span class="track-time">1:37</span>
+                    <button class="play-button">►</button>
+                </li>
+                <li data-src="https://storage.googleapis.com/udio-artifacts-c33fe3ba-3ffe-471f-92c8-5dfef90b3ea3/samples/3568169ff6da4e4490ae610dcc9cb72e/2/Galera%2520do%2520Metal%2520ext%2520v2.1.2.mp3" data-artist="Nervousconcelos" data-genre="Metal" data-cover="images/cover7.jpg">
+                    <img src="images/cover7.jpg" alt="Cover 7" class="cover">
+                    <span class="track-number">7</span>
+                    <span class="track-title">Bate a Cabeça e Bate o Pé</span>
+                    <span class="track-artist">Nervousconcelos</span>
+                    <span class="track-album">Metal</span>
+                    <span class="track-time">2:10</span>
+                    <button class="play-button">►</button>
+                </li>
+            </ul>
+        </div>
+        <div class="player">
+            <div class="current-track-info">
+                <img id="currentTrackCover" src="images/cover1.jpg" alt="Música atual capa" class="cover">
+                <div class="current-track-text">
+                    <span id="currentTrackTitle">Música</span>
+                    <span id="currentTrackArtist">Artista</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="prevButton">◄◄</button>
+                <button id="playButton">►</button>
+                <button id="nextButton">►►</button>
+                <div class="progress-bar">
+                    <input type="range" id="progress" value="0" step="1">
+                </div>
+            </div>
+            <div class="time-display">
+                <span id="currentTime">0:00</span>
+            </div>
+            <div class="volume">
+                <input type="range" id="volumeControl" min="0" max="1" step="0.01">
+            </div>
+        </div>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
