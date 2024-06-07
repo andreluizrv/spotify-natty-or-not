@@ -8,8 +8,7 @@ O projeto desenvolvido foi um modelo que simula um *Spotify* simplificado, onde 
 
 * Chat GPT-4o para criar a página HTML, o .CSS e o arquivo .js.
 * DALL-E 3 para criar as imagens das capas.
-* Os sites [Suno.ai](https://suno.ai) e [Udio.com](https://udio.com) foram usados.
- para criar as músicas da playlist.
+* Os sites <a href="https://suno.ai" target="_blank">Suno.ai</a> e <a href="https://udio.com" target="_blank">Udio.com</a> foram usados para criar as músicas da playlist.
 
 ## 🧐 Processo de Criação
 
